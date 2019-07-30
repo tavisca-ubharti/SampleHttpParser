@@ -34,7 +34,7 @@ namespace HttpParser
             _requestKeyValuePair.Add("RequestMessageBody", message);
         }
 
-        public void GetParsedRequest()
+        public void DisplayParsedRequest()
         {
             Console.WriteLine("Http Request Attribute :");
             Console.WriteLine($"Http Method: {_httpMethod}");

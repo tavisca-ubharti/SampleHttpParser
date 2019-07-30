@@ -34,7 +34,7 @@ namespace HttpParser
             _responseKeyValuePair.Add("ResponseMessageBody", message);
         }
 
-        public void GetParsedResponse()
+        public void DisplayParsedResponse()
         {
             Console.WriteLine("Http Response Attribute :");
             Console.WriteLine($"Http Version: {_httpVersion}");

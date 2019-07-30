@@ -12,10 +12,10 @@ namespace HttpParser
             var responseData = File.ReadAllLines(@"Data\ResponseData.txt");
 
             requestParser.ParseRequestData(requestData);
-            requestParser.GetParsedRequest();
+            requestParser.DisplayParsedRequest();
 
             responseParser.ParseResponseData(responseData);
-            responseParser.GetParsedResponse();
+            responseParser.DisplayParsedResponse();
         }
     }
 }
